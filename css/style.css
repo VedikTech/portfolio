@@ -31,22 +31,36 @@ background: linear-gradient(135deg, #020202, #164572);
    color:#FF5722;
   
 }
-.navbar a{
+.navitem{
     color:white;
     font-size:20px;
     text-decoration:none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.navbar a:hover{
-    padding-bottom:12px;
   
- text-decoration:solid;
- 
 }
+.navitem:hover{
+    border-bottom: 2px solid white;
+    
+    
+}
+
 .resume a{
     border:2px solid #FF5722;
     padding:8px 40px;
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+    
 }
+.resume a:hover{
+    background-color: #FF5722;
+
+}
+
+
 .home{
    
     height:700px;
@@ -58,20 +72,7 @@ background: linear-gradient(135deg, #020202, #164572);
    background-repeat: no-repeat;
    background-position: center center;
    
-/*
-* Created with https://www.css-gradient.com
-* Gradient link: https://www.css-gradient.com/?c1=020202&c2=164572&gt=l&gd=dtl
-*/
-
-  
-  
-   /*
-   background: rgb(18,151,159);
-   background: linear-gradient(90deg, rgba(18,151,159,1) 5%, rgba(30,61,136,1) 100%);*/
-  
-
 }
-
 
 .img img{
     height:500px;
@@ -122,6 +123,7 @@ background: linear-gradient(135deg, #020202, #164572);
 }
 .get_in_touch:hover{
     background-color:#FF5722;
+  
 }
 .contact{
     display:flex;
@@ -132,6 +134,8 @@ background: linear-gradient(135deg, #020202, #164572);
     width:170px;
     margin-top:40px;
 }
+
+/*
 .about{
     
     
@@ -205,4 +209,4 @@ height:3px;
   padding-top:40px;
   padding-left: 25px;
   border-radius:10px;
-}
+}*/
