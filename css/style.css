@@ -5,13 +5,14 @@
    
   
 }
-.head{
-    /*
-    background: #020202;
-background: linear-gradient(135deg, #020202, #164572);
-*/
- background:black;
+
+body{
+    background-color: #101010;
+height:100%;
+width: 100%;
+color:white;
 }
+
 .handshake{
     width:50px;
     height:50px;
@@ -20,7 +21,7 @@ background: linear-gradient(135deg, #020202, #164572);
 
 .navbar{
    
-    
+    background-color:#101010;
    height:80px;
     width:100%;
     display:flex;
@@ -29,7 +30,9 @@ background: linear-gradient(135deg, #020202, #164572);
     align-items:center;
     letter-spacing: 1px;
    color:#FF5722;
-  
+    position:fixed;
+    top:0;
+ 
 }
 .navitem{
     color:white;
@@ -62,31 +65,21 @@ background: linear-gradient(135deg, #020202, #164572);
 
 
 .home{
-   
-    height:700px;
-    width: 100%;
+ 
    display: flex;
-   justify-content:center;
-  
-   background-size:cover;
-   background-repeat: no-repeat;
-   background-position: center center;
-   
+ margin-top:80px;
+   justify-content: center;
 }
 
 .img img{
     height:500px;
-  
-
 }
 .info{
     display:flex;
     flex-direction: column;
    margin-top:90px;
     color:white;
-    
-   
-    
+ 
 }
 .info1{
    font-size:20px;
@@ -135,7 +128,7 @@ background: linear-gradient(135deg, #020202, #164572);
     margin-top:40px;
 }
 
-/*
+
 .about{
     
     
@@ -144,26 +137,29 @@ background: linear-gradient(135deg, #020202, #164572);
     align-items:center;
   
     row-gap:20px;
-    padding-top:60px;
-   
+       margin-top: 160px;
+   margin-left: 80px;
 
-    width: 100%;
-    height:800px;
+width:90%;
+padding-top: 40px;
+
+padding-bottom: 40px;
+    background-color: rgb(27, 25, 25);
    
 
 
 }
 .edu{
-    border:2px solid grey;
-    background-color:white;
+border-radius: 20px;
+    background-color:rgba(16, 16, 16,0.8);
     height:100px;
     width:500px;
-  color:black;
+  color:white;
    text-align:center;
   
 }
 .education{
-    border-left: 4px solid black;
+    border-left: 4px solid white;
     height:450px;
     padding-left:40px;
 
@@ -189,19 +185,24 @@ height:3px;
     align-items:center;
     font-size:30px;
 }
-.skill{
+.skillheading{
+    text-align: center;
+    margin-top: 150px;
+
+
+}
+.skillicon{
    
-   background-color:#f3f3f3;
-    width:100%;
-    height:1000px;
-   padding-top:50px;
+   
+  
+ margin-top: 20px;
    display:flex;
    justify-content: center;
    column-gap: 40px;
   
     
 }
-.skill i{
+.skillicon i{
     border: 2px solid white;
     background-color:white;
     width:80px;
@@ -209,4 +210,4 @@ height:3px;
   padding-top:40px;
   padding-left: 25px;
   border-radius:10px;
-}*/
+}
