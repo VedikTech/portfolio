@@ -39,10 +39,12 @@ color:white;
     font-size:20px;
     text-decoration:none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
   
 }
 .navitem:hover{
     border-bottom: 2px solid white;
+   
     
     
 }
@@ -214,7 +216,7 @@ margin-bottom:60px;
 .skilldiv{
    
     background-color:rgba(255, 255, 255,0.6);
-    width:200px;
+    width:160px;
     height:150px;
     color:#000000;
     font-weight:bold;
@@ -247,7 +249,7 @@ margin-bottom:60px;
 
 .projecthover{
     width:300px;
-    height:300px;
+ 
     border:1px solid white;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -260,6 +262,7 @@ margin-bottom:60px;
  position:absolute;
  bottom:0;
  transition: .5s ease;
+ height:0px;
 opacity: 0;
 
 
@@ -268,6 +271,8 @@ opacity: 0;
 }
 .projectimg:hover .projecthover{
     opacity:1;
+    height:300px;
+    transition: .5s linear;
 }
 
 .projecthover button{
