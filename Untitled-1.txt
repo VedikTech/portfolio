@@ -7,3 +7,6 @@
 </div>
 
 background: linear-gradient(90deg, rgba(18,151,159,1) 5%, rgba(30,61,136,1) 100%);
+//toggle
+
+<div><i class="fa-solid fa-toggle-on" id="btnmode" style="color: #ff5722;"></i></div>

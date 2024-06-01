@@ -1,0 +1,36 @@
+@media (min-width: 768px) and (max-width: 991px){
+   .bar_icon{
+      display:block;
+      
+   }
+   .navitem{
+      display:none;
+   }
+   .navbar{
+      justify-content:flex-start;
+      margin-left:40px;
+
+
+   }
+  
+.info1{
+   font-size:18px;
+ 
+}
+.name{
+   font-size:60px;
+   
+}
+.name2{
+  
+   font-size:40px;
+}
+.info2{
+   font-size:16px;
+}
+   .projectbox{
+      column-gap:20px;
+   }
+   
+  
+}
