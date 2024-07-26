@@ -11,6 +11,8 @@
 height:100%;
 width: 100%;
 color:white;
+
+
 }
 
 .bodylightmode{
@@ -23,60 +25,28 @@ color:white;
     height:50px;
    
 }
-/*
 
-.navbar{
-   
-    background-color:#101010;
-   height:80px;
-    width:100%;
-    display:flex;
-    justify-content:center;
-    column-gap:130px;
-    align-items:center;
-    letter-spacing: 1px;
-   color:#FF5722;
-    position:fixed;
-    top:0;
- 
-}
-.navitem{
-    color:white;
-    font-size:20px;
-    text-decoration:none;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-
- 
-  
-}
-.navitem:hover{
-    border-bottom: 2px solid white;
-   
-    
-    
-}
-*/
 
 .navbar{
     display: flex;
-   justify-content: space-around;
+   justify-content: center;
+   align-items: center;
     position:fixed;
-    background-color:#101010;
     top:0px;
- width:100%;
- height:80px;
-    align-items: center;
+    background-color:#101010;
+    column-gap: 100px;
+    width:100%;
+    height:80px;
+    
     flex-wrap: wrap;
     letter-spacing: 1px;
+ 
 }
 
 .navitem{
 
     display: flex;
-    justify-content: center;
-    column-gap:120px;
-    align-items: center;
+    column-gap:100px;
 
 }
 
@@ -87,14 +57,22 @@ color:white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .navitem a:hover{
-    border-bottom: 2px solid white;
+    text-decoration: underline;
+     text-decoration-color:#FF5722;
+    
 }
-.bar_icon{
+.navicon{
     font-size: 20px;
     display: none;
+    
+   
 }
+  .cross{
+    display: none;
+    font-size:20px;
+  }
 
-.resume a{
+#resume{
     border:2px solid #FF5722;
     padding:8px 40px;
     color:white;
@@ -105,16 +83,13 @@ color:white;
     
     
 }
-.resume a:hover{
+#resume:hover{
     background-color: #FF5722;
-    border:none;
+   border:none;
+
     
 
 }
-
-
-
-
 
 .home{
  
@@ -178,6 +153,7 @@ color:white;
     display:flex;
     column-gap:20px;
     margin-top:20px;
+    margin-left:30px;
 }
 .hr{
     width:170px;
@@ -195,7 +171,20 @@ color:white;
      
 
 }
-
+.about_info{
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction:column;   
+}
+.about_desc {
+    font-family:Georgia, serif;
+    line-height: 1.6;
+   font-size:17px;
+  
+    margin-top:20px;
+    width:800px;
+}
 
 .education{
 
@@ -205,13 +194,11 @@ color:white;
    column-gap:160px;
      
 }
-
 .eduinfo{
+    
     font-size:18px;
     font-family:Georgia, serif;
-    word-spacing: 3px;
-    
-    
+    word-spacing: 3px;  
 }
 .eduinfo ul{
     margin-top: 60px;
@@ -227,7 +214,7 @@ color:white;
 }
 
 .eduinfo ul li::marker{
-    color:rgb(255, 87, 34);
+    color:#ff5722;
     font-size:30px;
 }
 .myimg>img{
@@ -261,13 +248,16 @@ margin-bottom:60px;
 }
 
 .skillicon{
- margin-top: 20px;
+
    display:flex;
-   justify-content: center;
-   flex-wrap: wrap;
-   column-gap: 60px;
+   align-items:center;
+   flex-direction:column;
   
     
+}
+.skill_description{
+    width:800px;
+    line-height: 1.6;
 }
 .skilldiv{
    
@@ -281,7 +271,30 @@ margin-bottom:60px;
     padding:20px;
     border-radius: 10px;
 }
-
+.skilldiv:hover{
+    border:3px solid #FF5722;
+}
+.skill_logo{
+ display:flex;
+ column-gap:30px;
+ margin-top:30px;
+ flex-wrap: wrap;  
+}
+.skillicon p{
+    font-size:18px;
+    font-family:Georgia, serif;
+}
+.project{
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction:column;
+}
+.project_description{
+    font-size:18px;
+    font-family:Georgia, serif;
+    width:800px;
+}
 .projectbox{
     display: flex;
     
@@ -301,9 +314,6 @@ margin-bottom:60px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
    
-   
-    
-
 }
 
 .projecthover{
@@ -317,7 +327,7 @@ margin-bottom:60px;
     justify-content: center;
     align-items: center;
     row-gap: 30px;
-    background-color:rgb(255, 87, 34);
+    background-color:#ff5722;
  position:absolute;
  bottom:0;
  transition: .5s linear;
@@ -328,11 +338,7 @@ opacity: 0;
    
     
 }
-/*.projectimg:hover .projecthover{
-    opacity:1;
-    height:300px;
-    transition: .5s linear;
-}*/
+
 .project_usability:hover .projecthover_usability,
 .project_portfolio:hover .projecthover_portfolio {
     opacity: 1;
@@ -363,6 +369,10 @@ opacity: 0;
     flex-direction: column;
     align-items: center;
     row-gap: 30px;
+}
+.contactheading p{
+    font-size: 17px;
+    font-family:Georgia, serif;
 }
 .contactpage{
    border:1px solid;
@@ -410,7 +420,7 @@ opacity: 0;
  color:white;
 }
 .contact_button:hover{
-    background-color: #FF5722;
+    background-color: #ff5722;
 }
 .hr2{
     width:300px;

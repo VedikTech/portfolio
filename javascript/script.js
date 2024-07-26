@@ -1,42 +1,26 @@
+let navicon=document.querySelector(".navicon");
+let cross=document.querySelector(".cross");
+let navitem=document.querySelector(".navitem");
+let navLinks = navitem.querySelectorAll("a");
+
+navicon.addEventListener("click",function(){
+navitem.classList.toggle("active")
+cross.style.display="block";
+navicon.style.display="none";
+
+})
+cross.addEventListener("click",function(){
+navitem.classList.toggle("active")
+cross.style.display="none";
+navicon.style.display="block";
+
+})
 
 
-    let toggle_btn = document.getElementById("toggle");
-    toggle_btn.addEventListener("click", () => {
-        console.log("hey vedu");
-        toggle_btn.classList.toggle("navitem2");
+navLinks.forEach(link => {
+    link.addEventListener("click", function() {
+      navitem.classList.remove("active");
+      cross.style.display = "none";
+      navicon.style.display = "block";
     });
-
-
-     
-        
-     
-   
-
-
-/*toggle night mode light mode
-let btn=document.getElementById("btnmode");
-let body=document.querySelector("body");
-let mode="dark";
-btn.addEventListener("click", ()=>{
-if(mode==="dark")
-    {
-
-        mode="light";
-        body.classList.add("bodylightmode");
-        body.classList.remove("body");
-     console.log("light")
-    }
-    else{
-
-        mode="dark";
-        body.classList.add("body");
-        body.classList.remove("bodylightmode");
-        console.log("dark");
-    }
- 
-
-  
-   
-
-});
-*/
+  });

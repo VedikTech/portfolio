@@ -1,17 +1,45 @@
-@media (min-width: 768px) and (max-width: 991px){
-   .bar_icon{
+@media (max-width: 991px){
+   .navicon{
       display:block;
       
    }
+   .cross{
+      display:none;
+      font-size: 30px;
+   }
    .navitem{
       display:none;
-   }
-   .navbar{
-      justify-content:flex-start;
-      margin-left:40px;
+      background-color:#ff5722;
+      width:100%;
+        
+       flex-direction: column;
+       row-gap:70px;
+       align-items: center;
+       position:absolute;
+       top:60px;
+       padding-top: 50px;
+       padding-bottom:50px;
 
-
    }
+   .navitem a:hover{
+      text-decoration: underline;
+      text-decoration-color: white;
+   }
+   #resume{
+      border:2px solid white;   
+  }
+  #resume:hover{
+   background-color: white;
+  border:none;
+  color:#ff5722;
+
+   
+
+}
+   .navitem.active{
+      display:flex;
+   }
+  
   
 .info1{
    font-size:18px;
@@ -28,31 +56,84 @@
 .info2{
    font-size:16px;
 }
-   .projectbox{
-      column-gap:20px;
-   }
+.about_desc{
+   width:700px;
+
+}
+.skill_description{
+   width:500px;
    
   
+}
+
+ .projectbox{
+      column-gap:20px;
+   }
+   .project_description {
+      width:700px;
+   }
+
+
+
 }
 
 @media (max-width: 767px){
 
    *{
       box-sizing: border-box;
+    
    }
-   .bar_icon{
-      display:block;
-      
-   }
+ 
+   
+   
    .navitem{
       display:none;
+      background-color:#ff5722;
+         width:100%;
+           
+          flex-direction: column;
+          row-gap:70px;
+          align-items: center;
+          position:absolute;
+          top:60px;
+          padding-top: 50px;
+          padding-bottom:50px;
+
+          
+         
+         
    }
+
    .navbar{
-      justify-content:flex-start;
-      margin-left:40px;
+      column-gap: 0;
+    }
+    #resume{
+      border:2px solid white;   
+  }
+  #resume:hover{
+   background-color: white;
+  border:none;
+  color:#ff5722;
 
+   
 
-   }
+}
+    .navicon{
+      display: block;
+      cursor: pointer;
+      
+      
+    }
+    .navitem.active{
+         display: flex; 
+          
+    }
+    .cross{
+     display: none;
+      cursor: pointer;
+      
+    }
+   
    .home{
       justify-content:center;
        text-align: center;
@@ -95,15 +176,32 @@
    height:40px;
   
 }
-.skillicon {
+.about_desc{
+   width:400px;
+
+}
+
+
+.skill_logo {
    flex-direction: column;
 align-items: center;
    row-gap:20px;
+
 }
+.skill_description{
+   width:400px;
+   
+  
+}
+
 .projectbox{
    row-gap:20px;
    flex-direction: column;
   align-items: center;
+}
+
+.project_description {
+   width:400px;
 }
 
 .contactpage{
@@ -124,14 +222,10 @@ width:300px;
 }
 .project_usability:hover .projecthover_usability{
 margin-bottom:330px;
-}
 
-   
-   
-   
-    
-   
-   
 }
 
 
+
+
+}
