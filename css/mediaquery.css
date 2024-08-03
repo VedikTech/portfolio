@@ -1,3 +1,5 @@
+
+
 @media (max-width: 991px){
    .navicon{
       display:block;
@@ -32,15 +34,10 @@
    background-color: white;
   border:none;
   color:#ff5722;
-
-   
-
 }
    .navitem.active{
       display:flex;
-   }
-  
-  
+   } 
 .info1{
    font-size:18px;
  
@@ -62,46 +59,33 @@
 }
 .skill_description{
    width:500px;
-   
-  
+    
 }
-
- .projectbox{
-      column-gap:20px;
-   }
-   .project_description {
-      width:700px;
-   }
-
-
-
+.project_description {
+      text-align: center;
 }
-
+.projects{
+   row-gap: 20px;
+}
+}
 @media (max-width: 767px){
 
    *{
       box-sizing: border-box;
     
    }
- 
-   
-   
    .navitem{
       display:none;
       background-color:#ff5722;
-         width:100%;
-           
-          flex-direction: column;
-          row-gap:70px;
-          align-items: center;
-          position:absolute;
-          top:60px;
-          padding-top: 50px;
-          padding-bottom:50px;
-
-          
-         
-         
+      width:100%;
+      flex-direction: column;
+      row-gap:70px;
+      align-items: center;
+      position:absolute;
+      top:60px;
+      padding-top: 50px;
+      padding-bottom:50px;
+     
    }
 
    .navbar{
@@ -112,18 +96,13 @@
   }
   #resume:hover{
    background-color: white;
-  border:none;
-  color:#ff5722;
-
-   
-
+   border:none;
+   color:#ff5722;
 }
     .navicon{
       display: block;
       cursor: pointer;
-      
-      
-    }
+   }
     .navitem.active{
          display: flex; 
           
@@ -133,16 +112,10 @@
       cursor: pointer;
       
     }
-   
    .home{
       justify-content:center;
-       text-align: center;
-      
-      
-   }
-  
-  
-   
+       text-align: center;   
+   }  
 .contact{
   display:flex;
    justify-content:center;
@@ -151,21 +124,15 @@
 .hr{
    margin:auto;
    margin-top:30px;
-
-
-}
-   
+}  
     
 .info1{
    font-size:18px;
- 
 }
 .name{
-   font-size:40px;
-   
+   font-size:40px;  
 }
 .name2{
-  
    font-size:40px;
 }
 .info2{
@@ -178,10 +145,7 @@
 }
 .about_desc{
    width:400px;
-
 }
-
-
 .skill_logo {
    flex-direction: column;
 align-items: center;
@@ -190,42 +154,22 @@ align-items: center;
 }
 .skill_description{
    width:400px;
-   
-  
-}
-
-.projectbox{
-   row-gap:20px;
-   flex-direction: column;
-  align-items: center;
 }
 
 .project_description {
-   width:400px;
+   text-align: center;
 }
-
 .contactpage{
-   width:500px;
-   
-   
+   width:400px; 
 }
 .contactpage .input{
-
 width:300px;
 }
 #textarea{
    width:300px;
 }
-.contact_button{
-  margin-left:170px;
-  
-}
 .project_usability:hover .projecthover_usability{
 margin-bottom:330px;
 
 }
-
-
-
-
 }
