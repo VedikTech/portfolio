@@ -62,6 +62,7 @@
   * {
     box-sizing: border-box;
   }
+  
   .navitem {
     display: none;
     background-color: #ff5722;
@@ -139,7 +140,8 @@
   }
 
   .project_description {
-    text-align: center;
+    padding-left:20px;
+    padding-right: 20px;
   }
   .contactpage {
     width: 400px;
@@ -153,4 +155,32 @@
   .project_usability:hover .projecthover_usability {
     margin-bottom: 330px;
   }
+  
+  #home_section{
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .about_desc{
+    padding-left: 40px;
+    padding-right:20px;
+  }
+  
+  .education{
+    padding-left:60px;
+
+  }
+  .myimg{
+    padding-right:50px;
+  }
+  .skill_description{
+    padding-left:20px;
+    padding-right:20px;
+  }
+  .contactpage{
+    padding-left:20px;
+    padding-right:20px;
+
+  }
+    
+    
 }

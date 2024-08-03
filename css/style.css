@@ -128,7 +128,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 180px;
+  margin-top: 160px;
   row-gap: 40px;
 }
 .about_info {
