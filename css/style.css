@@ -72,6 +72,9 @@
   margin-top: 80px;
   justify-content: center;
 }
+#home_section{
+  scroll-margin-top: 110px;
+}
 .img img {
   height: 500px;
 }
@@ -130,6 +133,9 @@
   align-items: center;
   margin-top: 160px;
   row-gap: 40px;
+}
+#about_section{
+  scroll-margin-top: 110px;
 }
 .about_info {
   display: flex;
@@ -196,7 +202,9 @@
   margin-top: 150px;
   margin-bottom: 60px;
 }
-
+#skill_section{
+  scroll-margin-top: 200px;
+}
 .skillicon {
   display: flex;
   align-items: center;
@@ -242,14 +250,20 @@
   width: 200px;
   height: 200px;
   position: relative;
+  overflow: hidden;
+
 }
 .project_card img {
   width: 200px;
   height: 200px;
-  object-fit: fill;
+  object-fit: cover;
   border: 2px solid white;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  
+}
+#project_section{
+  scroll-margin-top: 200px;
 }
 .overscreen {
   display: flex;
@@ -319,6 +333,9 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 70px;
+}
+#contact_section{
+  scroll-margin-top: 120px;
 }
 
 form {
