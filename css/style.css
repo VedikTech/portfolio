@@ -3,6 +3,9 @@
   margin: 0px;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 .body {
   background-color: #101010;
   height: 100%;
@@ -256,7 +259,7 @@
 .project_card img {
   width: 200px;
   height: 200px;
-  object-fit: cover;
+  object-fit: fill;
   border: 2px solid white;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
