@@ -272,8 +272,7 @@
     padding-right: 20px;
   }
   .about_desc {
-    padding-left: 40px;
-    padding-right: 20px;
+   text-align: center;
   }
 
   .education {
@@ -286,7 +285,7 @@
     padding-right: 50px;
   }
   .skill_description {
-   
+   text-align: center;
    
    
   }
