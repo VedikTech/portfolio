@@ -288,6 +288,8 @@
   .skill_description {
     padding-left: 30px;
     padding-right: 50px;
+   
+    width:300px;
   }
   .contactpage {
     padding-left: 20px;
