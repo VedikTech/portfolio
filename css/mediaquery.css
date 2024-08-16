@@ -59,7 +59,7 @@
     font-size: 22px;
    
   }
-  .skill_description {
+  p.skill_description{
     font-size: 22px;
     margin-bottom: 30px;
   }
