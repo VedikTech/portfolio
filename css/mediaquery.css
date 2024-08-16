@@ -1,6 +1,4 @@
 @media (min-width: 1024px) {
-
- 
   .navbar {
     height: 100px;
   }
@@ -12,6 +10,10 @@
   }
   #resume {
     font-size: 25px;
+  }
+  .handshake {
+    width: 100px;
+    height: 100px;
   }
   .info {
     margin-top: 250px;
@@ -55,7 +57,7 @@
   }
   .eduheading {
     font-size: 22px;
-    text-decoration: underline;
+   
   }
   .skill_description p {
     font-size: 22px;
@@ -88,7 +90,7 @@
 
 
 
-
+/*Tablet Screen*/
 
 @media (max-width: 991px) {
   .navicon {
@@ -158,6 +160,9 @@
   
 }
 
+
+
+/* Mobile Screen*/
 @media (max-width: 767px) {
   * {
     box-sizing: border-box;
