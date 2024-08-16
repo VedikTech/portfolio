@@ -1,3 +1,95 @@
+@media (min-width: 1024px) {
+
+ 
+  .navbar {
+    height: 100px;
+  }
+  .navitem {
+    column-gap: 150px;
+  }
+  .navitem a {
+    font-size: 25px;
+  }
+  #resume {
+    font-size: 25px;
+  }
+  .info {
+    margin-top: 250px;
+  }
+  .info1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .name {
+    font-size: 100px;
+  }
+  .name2 {
+    font-size: 85px;
+  }
+  .info2 {
+    font-size: 25px;
+  }
+  .get_in_touch-box {
+    margin-top: 50px;
+  }
+  .get_in_touch {
+    font-size: 25px;
+    padding: 20px, 50px;
+  }
+  .hr {
+    width: 180px;
+  }
+
+  .contact i {
+    font-size: 30px;
+  }
+  .headingabout {
+    font-size: 40px;
+  }
+  .about_desc {
+    font-size: 22px;
+    margin-top: 40px;
+  }
+  #about_section {
+    scroll-margin-top: 200px;
+  }
+  .eduheading {
+    font-size: 22px;
+    text-decoration: underline;
+  }
+  .skill_description p {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .skill_logo {
+    column-gap: 60px;
+  }
+  #skill_section {
+    scroll-margin-top: 250px;
+  }
+
+  .project_description {
+    font-size: 22px;
+    margin-bottom: 90px;
+  }
+  .projects {
+    column-gap: 50px;
+  }
+  .contactheading p {
+    font-size: 22px;
+    
+  }
+  .contact_button {
+    width: 200px;
+    height: 40px;
+   font-size: 20px;
+  }
+}
+
+
+
+
+
 @media (max-width: 991px) {
   .navicon {
     display: block;
@@ -17,6 +109,12 @@
     top: 60px;
     padding-top: 50px;
     padding-bottom: 50px;
+    transition-property: "transform";
+    transition-duration: 5s;
+    transition-timing-function: linear;
+  }
+  .transform {
+    transform: translateY("100vh");
   }
   .navitem a:hover {
     text-decoration: underline;
@@ -57,12 +155,14 @@
   .projects {
     row-gap: 20px;
   }
+  
 }
+
 @media (max-width: 767px) {
   * {
     box-sizing: border-box;
   }
-  
+
   .navitem {
     display: none;
     background-color: #ff5722;
@@ -135,7 +235,7 @@
     align-items: center;
     row-gap: 20px;
   }
-  #skill_section{
+  #skill_section {
     scroll-margin-top: 120px;
   }
   .skill_description {
@@ -143,10 +243,10 @@
   }
 
   .project_description {
-    padding-left:20px;
+    padding-left: 20px;
     padding-right: 20px;
   }
-  #project_section{
+  #project_section {
     scroll-margin-top: 100px;
   }
   .contactpage {
@@ -161,40 +261,37 @@
   .project_usability:hover .projecthover_usability {
     margin-bottom: 330px;
   }
-  
-  #home_section{
-    padding-left:20px;
-    padding-right:20px;
-  }
-  .about_desc{
-    padding-left: 40px;
-    padding-right:20px;
-  }
-  
-  .education{
-    padding-left:60px;
 
+  #home_section {
+    padding-left: 20px;
+    padding-right: 20px;
   }
-  .headingabout{
+  .about_desc {
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+
+  .education {
+    padding-left: 60px;
+  }
+  .headingabout {
     font-size: 23px;
   }
-  .myimg{
-    padding-right:50px;
+  .myimg {
+    padding-right: 50px;
   }
-  .skill_description{
-    padding-left:30px;
-    padding-right:20px;
+  .skill_description {
+    padding-left: 30px;
+    padding-right: 20px;
   }
-  .contactpage{
-    padding-left:20px;
-    padding-right:20px;
-
+  .contactpage {
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .contact {
-    margin-right:30px;
+    margin-right: 30px;
   }
-  #contact_section{
+  #contact_section {
     scroll-margin-top: 90px;
-  } 
-    
+  }
 }
