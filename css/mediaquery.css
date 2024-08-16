@@ -273,6 +273,8 @@
   }
   .about_desc {
    text-align: center;
+   padding-left: 20px;
+   padding-right: 20px;
   }
 
   .education {
@@ -286,6 +288,8 @@
   }
   .skill_description {
    text-align: center;
+   padding-left: 20px;
+   padding-right: 20px;
    
    
   }
