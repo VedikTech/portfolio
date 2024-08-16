@@ -233,7 +233,7 @@ html {
   align-items: center;
   flex-direction: column;
 }
-.skill_description p {
+.skill_description  {
   width: 800px;
   line-height: 1.6;
 }
