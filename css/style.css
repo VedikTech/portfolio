@@ -41,7 +41,7 @@ html {
   position: fixed;
   top: 0px;
   background-color: #101010;
-  column-gap: 100px;
+ 
   width: 100%;
   height: 80px;
   z-index: 1;
@@ -89,8 +89,8 @@ html {
 }
 .home {
   display: flex;
-
   justify-content: center;
+
 }
 #home_section {
   scroll-margin-top: 110px;
@@ -101,7 +101,7 @@ html {
 .info {
   display: flex;
   flex-direction: column;
-  margin-top: 90px;
+  margin-top: 200px;
 }
 .info1 {
   font-size: 20px;

@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+/*@media (min-width: 1540px) {
   .navbar {
     height: 100px;
   }
@@ -6,7 +6,7 @@
     column-gap: 150px;
   }
   .navitem a {
-    font-size: 25px;
+    font-size: 85px;
   }
   #resume {
     font-size: 25px;
@@ -88,7 +88,7 @@
   }
 }
 
-
+*/
 
 /*Tablet Screen*/
 
