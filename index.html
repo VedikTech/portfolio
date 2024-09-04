@@ -16,20 +16,20 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Vedika_Portfolio</title>
   </head>
   <body class="body">
    
     <!--navbar-->
-    <div class="navbar">
+    <div class="navbar" data-aos="fade-down" >
       <div class="navitem">
         <a href="#home_section">Home</a>
         <a href="#about_section">About Me</a>
         <a href="#skill_section">Skills </a>
         <a href="#project_section">Projects</a>
         <a href="#contact_section">Contact</a>
-        <div><a href="images/Vedika_Thote_Resume.pdf" id="resume">Resume</a></div>
+        <div><a href="images/Vedika_Thote_Resume.pdf" id="resume" data-aos="zoom-out" data-aos-delay="500">Resume</a></div>
       </div>
       <div class="navicon">
         <i class="fa-solid fa-bars" style="color: #ff5722"></i>
@@ -43,16 +43,16 @@
 
     <div class="home" id="home_section">
       <div class="info">
-        <p class="info1">Hello, my name is</p>
-        <h1 class="name">
-          Vedika Thote.
-          <img
+        <p class="info1" data-aos="fade-right" >Hello, my name is</p>
+        <h1 class="name" >
+         <span>Vedika Thote.</span> 
+          <img data-aos="slide-left" data-aos-delay="200"
             class="handshake"
             src="https://media.tenor.com/6ph1w40DrykAAAAi/handshake-joypixels.gif"
             alt=""
           />
         </h1>
-        <h3 class="name2 ">I am interested in Web Development.</h3>
+        <h3 class="name2 " data-aos="flip-right" data-aos-delay="200">I am interested in Web Development.</h3>
         <br />
         <p class="info2">
           "I'm a graduate of MCA (Master of Computer Applications) <br>
@@ -62,13 +62,13 @@
         <p class="info2">
           I enjoy learning new skills and implementing them in real life!
         </p>
-        <div class="get_in_touch-box">
-          <a href="mailto:vedikathote@gmail.com" class="get_in_touch"
+        <div class="get_in_touch-box" >
+          <a data-aos="zoom-out" data-aos-delay="500" href="mailto:vedikathote@gmail.com" class="get_in_touch"
             >Contact Me</a
           >
         </div>
         <div><hr class="hr" /></div>
-        <div class="contact">
+        <div class="contact" >
           <a href="https://github.com/VedikTech" target="_blank"
             ><i class="fa-brands fa-github fa-xl" style="color: #ff5722"></i
           ></a>
@@ -84,11 +84,11 @@
 
     <!--about section-->
     <div class="about" id="about_section">
-      <h1 class="headingabout" >About Me</h1>
+      <h1 class="headingabout" data-aos="fade-down" >About Me</h1>
     </div>
     <div class="about_info">
       <div>
-        <p class="about_desc">
+        <p class="about_desc" data-aos="fade-down" data-aos-delay="500">
           Hi, I'm Vedika Thote, a passionate web developer from Wardha district
           in Maharashtra. I recently graduated with a Master of Computer
           Applications (MCA) from P.R.Pote College of Engineering and
@@ -97,10 +97,10 @@
         </p>
       </div>
       <div class="education">
-        <div class="myimg">
+        <div class="myimg" data-aos="zoom-in" data-aos-delay="1000">
           <img src="images/vedu2.jpeg" alt="" />
         </div>
-        <div class="eduinfo">
+        <div class="eduinfo" data-aos="slide-left">
           <ul>
             <li>
               <p class="eduheading">6 month Internship</p>
@@ -131,9 +131,9 @@
 
     <!--skill section-->
     <div class="skillheading" id="skill_section">
-      <h1 class="headingabout">My Skills</h1>
+      <h1 class="headingabout" data-aos="fade-down" >My Skills</h1>
     </div>
-    <div class="skillicon">
+    <div class="skillicon" data-aos="fade-left" data-aos-delay="1000">
       <div >
         <p class="skill_description">
           Below are some of the key skills I have developed and honed through my
@@ -142,7 +142,7 @@
           applications.
         </p>
       </div>
-      <div class="skill_logo">
+      <div class="skill_logo" >
         <div class="skilldiv">
           <i
             class="fa-brands fa-html5"
@@ -172,15 +172,15 @@
     <!--project section-->
 
     <div class="skillheading" id="project_section">
-      <h1 class="headingabout " >My Projects</h1>
+      <h1 class="headingabout "data-aos="fade-down"  >My Projects</h1>
     </div>
     <div>
-      <p class="project_description">
+      <p class="project_description" data-aos="fade-right" data-aos-delay="1000">
         Below are some of the projects I have worked on, demonstrating my skills
         in web development.
       </p>
     </div>
-    <div class="projects">
+    <div class="projects" data-aos="fade-right" data-aos-delay="1000" >
       <div class="project_card">
         <img src="images/usability_hub.png" class="proimg" alt="" />
         <div class="overscreen">
@@ -227,11 +227,11 @@
     <!--contact section-->
 
     <div class="skillheading">
-      <h1 class="headingabout" id="contact_section">Contact Me</h1>
+      <h1 class="headingabout" id="contact_section" data-aos="fade-down" >Contact Me</h1>
     </div>
     <div class="contactheading">
       <div><p>Let's Start a Conversation.</p></div>
-      <div class="contactpage">
+      <div class="contactpage" data-aos="zoom-in" data-aos-delay="1000">
         <form action="mailto:vedika30job@gmail.com" >
           <input type="text" class="input" placeholder="Your Name" />
           <input type="email" class="input" placeholder="Email" />
@@ -253,7 +253,11 @@
           <i class="fa-regular fa-envelope fa-xl" style="color: #ff5722"></i></a>
       </div>
     </div>
- 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="javascript/script.js"></script>
+    
   </body>
 </html>
