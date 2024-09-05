@@ -191,7 +191,7 @@
     background-color: #ff5722; 
     display: flex;
     justify-content: center;
-   height:100vh;
+   
    
   }
   #resume {
@@ -205,10 +205,7 @@
   .navicon {
     display: block;
     cursor: pointer;
-    position: fixed; 
-    top: 0;
-   
-    z-index: 1001;
+    
     text-align: center; 
     margin: 0 auto;
    
