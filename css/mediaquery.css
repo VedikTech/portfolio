@@ -176,6 +176,7 @@
     row-gap: 70px;
     align-items: center;
     position: absolute;
+  
     top: 60px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -184,6 +185,8 @@
 
   .navbar {
     column-gap: 0;
+    align-items: center;
+    justify-content: center;
   }
   #resume {
     border: 2px solid white;
@@ -196,6 +199,12 @@
   .navicon {
     display: block;
     cursor: pointer;
+    position: fixed;
+    top: 0;
+    text-align: center; 
+    margin: 0 auto;
+   
+
   }
   .navitem.active {
     display: flex;
