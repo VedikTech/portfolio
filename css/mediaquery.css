@@ -187,6 +187,8 @@
     column-gap: 0;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    top: 0;
   }
   #resume {
     border: 2px solid white;
@@ -199,8 +201,7 @@
   .navicon {
     display: block;
     cursor: pointer;
-    position: fixed;
-    top: 0;
+   
     text-align: center; 
     margin: 0 auto;
    
