@@ -188,9 +188,11 @@
     top: 0; 
     width: 100%; 
     z-index: 1000; 
-    background-color: #ff5722; 
+background-color: black;
     display: flex;
     justify-content: center;
+    height: 100vh;
+
    
    
   }
