@@ -206,9 +206,10 @@
   .navicon {
     display: block;
     cursor: pointer;
-    
-    text-align: center; 
-    margin: 0 auto;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
    
 
   }
