@@ -184,11 +184,16 @@
   }
 
   .navbar {
-    column-gap: 0;
-    align-items: center;
+    position: fixed; 
+    top: 0; 
+   
+    width: 100%; 
+    z-index: 1000; 
+    background-color: #ff5722; 
+    display: flex;
     justify-content: center;
-    position: fixed;
-    top: 0;
+   height:100vh;
+   
   }
   #resume {
     border: 2px solid white;
@@ -201,7 +206,7 @@
   .navicon {
     display: block;
     cursor: pointer;
-   
+    
     text-align: center; 
     margin: 0 auto;
    
