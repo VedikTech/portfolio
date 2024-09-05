@@ -179,6 +179,7 @@
     top: 60px;
     padding-top: 50px;
     padding-bottom: 50px;
+    height: 100vh;
   }
 
   .navbar {
