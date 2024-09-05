@@ -186,7 +186,6 @@
   .navbar {
     position: fixed; 
     top: 0; 
-   
     width: 100%; 
     z-index: 1000; 
     background-color: #ff5722; 
@@ -206,7 +205,10 @@
   .navicon {
     display: block;
     cursor: pointer;
-    
+    position: fixed; 
+    top: 0;
+   
+    z-index: 1001;
     text-align: center; 
     margin: 0 auto;
    
