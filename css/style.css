@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+ 
 }
 @keyframes btn_ani {
   from {
@@ -13,15 +14,14 @@
     border-radius: 10px;
   }
 }
-html {
+html,body {
   scroll-behavior: smooth;
+  overflow-x: hidden;
+    
 }
 .body {
   background-color: black;
-  height: 100%;
-  width: 100%;
   color: white;
-  overflow-x: hidden;
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 ::selection {
@@ -175,10 +175,12 @@ html {
 }
 .myimg > img {
   width: 250px;
-  height: 300px;
-  border: 3px solid rgb(255, 87, 34);
-  margin-top: 80px;
-  border-radius: 20px;
+  height: 260px;
+ border: 4px solid white;
+  margin-top: 120px;
+  border-radius: 50px;
+  opacity: 0.6;
+  
 }
 .education {
   display: flex;
