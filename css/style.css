@@ -31,10 +31,7 @@ html,body {
   background-color: white;
   color: black;
 }
-.handshake {
-  width: 50px;
-  height: 50px;
-}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -113,12 +110,19 @@ html,body {
 .name {
   font-size: 80px;
 }
+
 .name2 {
   font-size: 60px;
+  color:#cccccc;
+}
+.handshake {
+  width: 70px;
+  height: 70px;
 }
 .info2 {
   font-size: 18px;
   line-height: 1.6;
+  color:#cccccc;
 }
 .get_in_touch {
   border: 1px solid white;

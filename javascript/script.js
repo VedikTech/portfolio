@@ -45,4 +45,13 @@ for (let i = 0; i < proimg.length; i++) {
       overscreen[i].classList.remove("show");
     }
   });
+
 }
+
+
+  var typed = new Typed('#element', {
+    strings: ['Vedika Thote.'],   // Your text
+    typeSpeed: 90,                // Speed of typing
+    showCursor: false,            // Hides cursor
+    
+  });
