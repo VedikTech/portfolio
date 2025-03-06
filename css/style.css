@@ -19,11 +19,14 @@ html,body {
   overflow-x: hidden;
     
 }
+
 .body {
   background:  linear-gradient(to right, #000000, #101010); 
   color: white; 
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+ 
 }
+
 ::selection {
   background-color: rgba(255, 87, 34, 0.3);
 }
@@ -38,7 +41,7 @@ html,body {
   align-items: center;
   position: fixed;
   top: 0px;
-  background: linear-gradient(to right, #000000, #101010);
+  background: linear-gradient(to right, #000000, #101010); 
  
   width: 100%;
   height: 80px;
@@ -88,7 +91,7 @@ html,body {
 .home {
   display: flex;
   justify-content: center;
-  
+ 
 
 }
 #home_section {
@@ -245,6 +248,10 @@ html,body {
   width: 800px;
   line-height: 1.6;
 }
+.imgcss{
+  width:70px;
+  height:70px;
+}
 .skilldiv {
   background-color: rgba(255, 255, 255, 0.6);
   width: 160px;
@@ -273,7 +280,7 @@ html,body {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 30px;
+  column-gap: 30px;           
   flex-wrap: wrap;
 }
 .project_card {
@@ -283,10 +290,11 @@ html,body {
   overflow: hidden;
 }
 .project_card img {
-  width: 200px;
-  height: 200px;
-  object-fit: fill;
-  border: 2px solid white;
+  width:100%;
+  height:100%;
+  object-fit: cover;
+object-position: top;
+  border: 4px solid white;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
