@@ -34,7 +34,7 @@ for (let i = 0; i < navLinks.length; i++) {
 let proimg = document.getElementsByClassName("proimg");
 let overscreen = document.getElementsByClassName("overscreen");
 
-for (let i = 0; i < proimg.length; i++) {
+for (let i = 0; i <=proimg.length; i++) {
   proimg[i].addEventListener("click", function () {
     if (overscreen[i]) {
       overscreen[i].classList.toggle("show");
