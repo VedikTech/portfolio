@@ -17,15 +17,17 @@
 html,body {
   scroll-behavior: smooth;
   overflow-x: hidden;
-    
-}
+  position:relative;
 
-.body {
   background:  linear-gradient(to right, #000000, #101010); 
   color: white; 
   font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
- 
+min-height:100%;
+
+    
 }
+
+
 
 ::selection {
   background-color: rgba(255, 87, 34, 0.3);
@@ -40,8 +42,8 @@ html,body {
   justify-content: center;
   align-items: center;
   position: fixed;
-  top: 0px;
-  background: linear-gradient(to right, #000000, #101010); 
+  top:0;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(16, 16, 16)); 
  
   width: 100%;
   height: 80px;
@@ -58,9 +60,12 @@ html,body {
   color: white;
   font-size: 20px;
   text-decoration: none;
+  
 }
 .navitem a:hover {
+ 
   text-decoration: underline;
+  text-decoration-thickness: 3px;
   text-decoration-color: #ff5722;
 }
 .navicon {
@@ -92,6 +97,9 @@ html,body {
   display: flex;
   justify-content: center;
  
+margin-top:-30px;
+
+
 
 }
 #home_section {
@@ -262,10 +270,13 @@ html,body {
   text-align: center;
   padding: 20px;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 5px solid white;
+  transition: all 0.7s ease-out
+  
 }
 .skilldiv:hover {
-  border: 3px solid #ff5722;
+  border: 7px solid transparent;
+ 
 }
 .skill_logo {
   display: flex;
@@ -287,16 +298,29 @@ html,body {
   width: 200px;
   height: 200px;
   position: relative;
-  overflow: hidden;
+ 
+
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+ 
 }
+
 .project_card img {
   width:100%;
   height:100%;
   object-fit: cover;
 object-position: top;
-  border: 4px solid white;
+border: 5px solid white;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  
+}
+
+.project_card:hover{
+
+  box-shadow: 2px 2px 20px grey;
+
+
 }
 #project_section {
   scroll-margin-top: 200px;
@@ -337,9 +361,7 @@ object-position: top;
   top: 0px;
   transition: 0.5s linear;
 }
-.project_card:hover {
-  transform: scale(1.05);
-}
+
 .description {
   color: white;
   font-size: 15px;
@@ -420,6 +442,20 @@ textarea {
   width: 300px;
   text-align: center;
   margin: 0 auto;
+}
+.orangemouse{
+  
+ 
+  position: fixed;
+  pointer-events: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 10px 10px 15px white;
+  z-index: 999;
+  transition: all 0.1s ease-out;
+
 }
 .footer {
   display: flex;

@@ -3,7 +3,8 @@ let navicon = document.querySelector(".navicon");
 let cross = document.querySelector(".cross");
 let navitem = document.querySelector(".navitem");
 let navLinks = navitem.querySelectorAll("a");
-
+let circle=document.querySelector(".orangemouse");
+let body=document.querySelector("body");
 // Event listener for navicon click (shows nav items)
 navicon.addEventListener("click", function () {
   navitem.classList.toggle("active");
@@ -49,9 +50,29 @@ for (let i = 0; i <proimg.length; i++) {
 }
 
 
+
+
   var typed = new Typed('#element', {
     strings: ['Vedika Thote.'],   // Your text
     typeSpeed: 90,                // Speed of typing
     showCursor: false,            // Hides cursor
     
   });
+
+
+
+  body.addEventListener("mousemove",(event)=>{
+   let x=event.clientX;
+   let y=event.clientY;
+   circle.style.left=`${x}px`;
+   circle.style.top=`${y}px`;
+  })
+
+  body.addEventListener("click", () => {
+    circle.style.transform = "scale(1.5)";
+    setTimeout(() => {
+      circle.style.transform = "scale(1)";
+    }, 200);
+  });
+
+
