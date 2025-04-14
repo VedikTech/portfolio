@@ -323,6 +323,7 @@ width:90%;
   height:100%;
   object-fit: cover;
 object-position: top;
+
 border: 5px solid white;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
