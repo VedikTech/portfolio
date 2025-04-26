@@ -96,7 +96,7 @@ video{
  background-position: center;
 height:100vh;
 width:100vw;
-opacity: 0.2;
+opacity: 0.3;
  
 }
 
@@ -104,7 +104,8 @@ opacity: 0.2;
   display: flex;
   justify-content: center;
  position:absolute;
-top:8%;
+ align-items: center;
+top:9%;
 left:50%;
 transform: translate(-50%, -50%);
 width:90%;
@@ -120,6 +121,7 @@ width:90%;
 .info {
   display: flex;
   flex-direction: column;
+  
   margin-top: 200px;
 }
 .info1 {
